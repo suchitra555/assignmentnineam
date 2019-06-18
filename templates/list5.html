@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+   <body>
+
+   <center>
+      <header> <h1> Displaying Rows and time taken for execution for restricted queries for time range </h1>
+      </header>
+      <br> <br>
+      <h1>Execution time:{{etime}}</h1>
+     <table border = 1>
+         {% for row in dist %}
+         <tr>
+        <h1> </h1>
+		<br>
+		<h1>{{row}}</h1>
+         </tr>
+         {% endfor %}
+      </table>
+
+      <br>
+      <h2> <a href = "/">Home</a> </h2>
+   </center>
+   </body>
+</html>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<body>
+
+		<center>
+		<header> <h1> Restricted Queries with mag </h1> </header>
+            <header> <h1> Suchitra Ngarajan </h1> </header>
+		<header> <h1> 1001666051</h1> </header>
+            <header> <h1> Assignment 3</h1> </header>
+		<br> <br>
+		<h1> </h1>
+		<br>
+		<label><h2>Enter the number of queries and :</h2></label><br>
+        <form action = "{{ url_for('options3') }}" method = "POST">
+		<label>Enter mag1:</label>
+         <input type = "text"                 
+				 name = "mag1"
+                  />
+		<label>Enter mag2:</label>
+         <input type = "text"                 
+				 name = "mag2"
+                  />
+            <label>Enter num:</label>
+         <input type = "text"
+				 name = "num"
+                  />
+		  <br>
+		  <br>
+		  <input type = "submit" value = "submit" /><br>	
+		  </form>
+        </center>
+	
+    </body>
+</html>
+        
